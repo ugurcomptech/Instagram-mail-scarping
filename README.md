@@ -38,3 +38,10 @@ python data.py
 - Bu betiğin Google arama sonuçlarını çektiğini unutmayın. Google, otomasyonlu sorguları sınırlayabilir veya yasaklayabilir.
 - Bu kod örneği, yalnızca eğitim amaçlıdır. Toplanan e-posta adreslerini spam veya kötü amaçlı kullanım için kullanmamalısınız.
 - Eğer HTTPS hatası alırsanız VPN açıp kullanmaya devam edebilirsiniz.
+
+
+## Lisans
+
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+
+Bu projeyi [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) altında lisansladık. Lisansın tam açıklamasını [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode) sayfasında bulabilirsiniz.
