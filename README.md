@@ -21,6 +21,10 @@ pip install pandas beautifulsoup4 validate_email_address
 
 ## Nasıl Kullanılır
 
+
+![İsimsiz video ‐ Clipchamp ile yapıldı](https://github.com/ugurcomptech/Instagram-mail-scarping/assets/133202238/1270dfb0-c578-43b0-be68-8a9e49d610b7)
+
+
 1. Kodu indirin veya kopyalayın.
 2. Terminali açın ve kodun olduğu klasöre gidin.
 3. Kodu çalıştırmak için aşağıdaki komutu kullanın:
