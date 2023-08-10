@@ -37,6 +37,9 @@ python data.py
 5. Kod, belirtilen kelimeyi ve sitedeki e-posta adreslerini Google aramasıyla bulmaya başlayacaktır.
 6. Bulunan e-posta adresleri ekranda görüntülenecek ve `eposta_adresleri.xlsx` adlı bir Excel dosyasına kaydedilecektir.
 
+![image](https://github.com/ugurcomptech/Instagram-mail-scarping/assets/133202238/040b6682-6ef8-4a56-8015-90854978f927)
+
+
 ## Önemli Notlar
 
 - Bu betiğin Google arama sonuçlarını çektiğini unutmayın. Google, otomasyonlu sorguları sınırlayabilir veya yasaklayabilir.
