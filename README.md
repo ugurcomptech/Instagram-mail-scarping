@@ -21,7 +21,7 @@ Betiği çalıştırırken, aşağıdaki argümanları kullanarak e-posta adresl
 
 Örnek kullanım:
 ```python
-python script.py -s instagram -k "web developer" -n 10
+python data.py -s instagram -k "zeynep" -n 10
 ```
 
 ![image](https://github.com/ugurcomptech/Instagram-mail-scarping/assets/133202238/040b6682-6ef8-4a56-8015-90854978f927)
