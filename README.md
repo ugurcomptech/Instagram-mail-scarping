@@ -2,7 +2,6 @@
 
 Bu Python betiği, Google arama motorunu kullanarak belirli bir kelimeyi ve belirli bir web sitesini hedefleyen e-posta adreslerini bulmanıza yardımcı olur. Kod, belirli bir kelimeyi içeren ve belirli bir sitede bulunan e-posta adreslerini toplar. Elde edilen e-posta adresleri daha sonra bir Excel dosyasına kaydedilir.
 
-## Gereksinimler
 
 ## Gereksinimler
 
