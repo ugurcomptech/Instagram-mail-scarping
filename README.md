@@ -1,41 +1,29 @@
 # Google'da E-posta Adresi Arama Aracı
 
-Bu Python betiği, Google arama motorunu kullanarak belirli bir kelimeyi ve belirli bir web sitesini hedefleyen e-posta adreslerini bulmanıza yardımcı olur. Kod, belirli bir kelimeyi içeren ve belirli bir sitede ("instagram.com") bulunan e-posta adreslerini toplar. Elde edilen e-posta adresleri daha sonra bir Excel dosyasına kaydedilir.
+Bu Python betiği, Google arama motorunu kullanarak belirli bir kelimeyi ve belirli bir web sitesini hedefleyen e-posta adreslerini bulmanıza yardımcı olur. Kod, belirli bir kelimeyi içeren ve belirli bir sitede bulunan e-posta adreslerini toplar. Elde edilen e-posta adresleri daha sonra bir Excel dosyasına kaydedilir.
 
 ## Gereksinimler
 
-Bu betiği çalıştırmak için aşağıdaki Python kütüphanelerine ihtiyacınız vardır:
+## Gereksinimler
 
-- `time`: Zaman gecikmeleri için kullanılır.
-- `pandas`: Veri çerçeveleri oluşturmak ve Excel dosyasına veri kaydetmek için kullanılır.
-- `re`: Düzenli ifadelerle metin eşleştirmek için kullanılır.
-- `requests`: Web sayfalarını indirmek için kullanılır.
-- `bs4` (BeautifulSoup): HTML içeriğini analiz etmek için kullanılır.
-- `validate_email`: E-posta adreslerini doğrulamak için kullanılır.
+Bu betiği çalıştırmak için aşağıdaki Python kütüphanelerine ihtiyacınız vardır. Gereksinimleri yüklemek için aşağıdaki komutları kullanabilirsiniz:
 
-Bu kütüphaneleri yüklemek için terminale aşağıdaki komutları kullanabilirsiniz:
-
-```python
-pip install pandas beautifulsoup4 validate_email_address
+```bash
+pip install -r requirements.txt
 ```
 
-## Nasıl Kullanılır
+## Kullanım
 
+Betiği çalıştırırken, aşağıdaki argümanları kullanarak e-posta adresleri çekmek istediğiniz web sitesini, aranacak kelimeyi ve çekilecek e-posta adresi sayısını belirtmelisiniz:
 
-![İsimsiz video ‐ Clipchamp ile yapıldı](https://github.com/ugurcomptech/Instagram-mail-scarping/assets/133202238/1270dfb0-c578-43b0-be68-8a9e49d610b7)
+- `-s` veya `--site`: E-posta adresleri çekilecek web sitesini belirtin.
+- `-k` veya `--keyword`: Aranacak kelimeyi belirtin.
+- `-n` veya `--num_emails`: Kaç adet e-posta adresi çekileceğini belirtin.
 
-
-1. Kodu indirin veya kopyalayın.
-2. Terminali açın ve kodun olduğu klasöre gidin.
-3. Kodu çalıştırmak için aşağıdaki komutu kullanın:
-
+Örnek kullanım:
 ```python
-python data.py
+python script.py -s instagram -k "web developer" -n 10
 ```
-
-4. İstenilen kelimeyi ve e-posta adresi sayısını girin.
-5. Kod, belirtilen kelimeyi ve sitedeki e-posta adreslerini Google aramasıyla bulmaya başlayacaktır.
-6. Bulunan e-posta adresleri ekranda görüntülenecek ve `eposta_adresleri.xlsx` adlı bir Excel dosyasına kaydedilecektir.
 
 ![image](https://github.com/ugurcomptech/Instagram-mail-scarping/assets/133202238/040b6682-6ef8-4a56-8015-90854978f927)
 
