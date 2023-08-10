@@ -24,6 +24,7 @@ pip install -r requirements.txt
 - Terminali açın
 - Scriptin bulunduğu dizine gidin
 - Aşağıda ki komutu girin:
+- 
   ```bash
   python data.py
   ```
